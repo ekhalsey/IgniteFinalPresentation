@@ -8,35 +8,35 @@ export default function WebApp() {
             <div className="row">
                 <div className="col-xl-2">
                     <div className="border border-dark rounded">
-                    <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#demo3" aria-expanded="false" aria-controls="collapseExample">Dependencies</button>
+                    <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#demo3" aria-expanded="false" aria-controls="collapseExample">1. Update</button>
                         <div id="demo3" className="collapse">
-                            sooooo many vulnerabilities
+                            sooooo many dependency vulnerabilities
                         </div>
                     </div>
                     <br /> 
                     <div className="border border-dark rounded">
-                        <button data-bs-toggle="collapse" data-bs-target="#demo1" className="btn btn-secondary">Build Tools</button>
+                        <button data-bs-toggle="collapse" data-bs-target="#demo1" className="btn btn-secondary">2. Build Tools</button>
                         <div id="demo1" className="collapse">
-                            from Create-React-App to Vite
+                            move from Create-React-App to Vite
                         </div>
                     </div>
                     <br />
                     <div className="border border-dark rounded">
-                        <button data-bs-toggle="collapse" data-bs-target="#demo4" className="btn btn-secondary">Simplify</button>
+                        <button data-bs-toggle="collapse" data-bs-target="#demo4" className="btn btn-secondary">3. Simplify</button>
                         <div id="demo4" className="collapse">
-                            mobx, and datastores, and snapshots, oh my
+                            mobx, and datastores, and snapshots oh my
                         </div>
                     </div>
                     <br />
                     <div className="border border-dark rounded">
-                        <button data-bs-toggle="collapse" data-bs-target="#demo2" className="btn btn-secondary">Modernize</button>
+                        <button data-bs-toggle="collapse" data-bs-target="#demo2" className="btn btn-secondary">4. Modernize</button>
                         <div id="demo2" className="collapse">
                             from class-based React to more modern function-based React
                         </div>
                     </div>
                      <br />
                     <div className="border border-dark rounded">
-                        <button data-bs-toggle="collapse" data-bs-target="#demo5" className="btn btn-secondary">Add on</button>
+                        <button data-bs-toggle="collapse" data-bs-target="#demo5" className="btn btn-secondary">5. Add on</button>
                         <div id="demo5" className="collapse">
                             predictive element - will driver be late?
                         </div>

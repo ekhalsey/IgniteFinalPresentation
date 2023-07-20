@@ -17,7 +17,7 @@ export default function Introduction() {
                             <img src={headshotImage} alt="Headshot" className="card-img-top" />
                             <div className="card-body bg-dark text-white">
                                 <h5 className="card-title">Emma Halsey</h5>
-                                <p className="card-text text-dark"> spanish major</p>
+                                <p className="card-text"> Alton, IL</p>
                             </div>
                         </div>
 
