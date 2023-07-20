@@ -57,8 +57,8 @@ export default function SummerProject() {
               </h2>
               <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                  <p>I got to experience the whole development process</p>
-                  <p>from an empty repository to a working app</p>
+                  <p>I got to experience the whole development process from an empty repository to a working app</p>
+                  <p>Tako-Ui-Fe is kind of isolated. It's time to learn new technologies</p>
                 </div>
               </div>
             </div>
@@ -70,20 +70,21 @@ export default function SummerProject() {
               </h2>
               <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                  <p>worth reading the documentation</p>
-                  <p>remaking- dont always write the code - pull from old</p>
+                  <p>It's worth reading the documentation</p>
+                  <p>Don't do more work than you have to.</p>
                 </div>
               </div>
             </div>
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingThree">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Networking
+                  Goals
                 </button>
               </h2>
               <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                  <p>Personal goal - connect with others around the organization</p>
+                  <p>Connect with others around the organization</p>
+                  <p>Start working toward AWS Cloud Practitioner Certification</p>
                 </div>
               </div>
             </div>
