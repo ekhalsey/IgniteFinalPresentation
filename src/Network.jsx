@@ -8,7 +8,7 @@ import SamB from './networkImages/SamBCapture.jpg';
 import SamT from './networkImages/SamTCapture.jpg';
 import Arvind from './networkImages/ArvindCapture.jpg';
 import Dan from './networkImages/DanCapture.jpg';
-import './css/network.css'
+import './css/Network.css'
 
 export default function Network() {
 

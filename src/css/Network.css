@@ -5,8 +5,8 @@
 }
 */
 .carousel-inner .carousel-item img {
-    width: auto;
-    height: auto;
+    width: 300px;
+    height: 400px;
     /* justify-content: center; */
 
 }
@@ -35,4 +35,7 @@
 }
 .heading {
     text-align: center;
+    background-color:cadetblue;
+    padding-left: 10px;
+    padding-right: 10px;
 }

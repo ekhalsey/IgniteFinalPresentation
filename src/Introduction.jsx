@@ -14,8 +14,8 @@ export default function Introduction() {
                     <div className="row">
                     <div className="col-lg-4">
                         <div className="card">
-                            <img src={headshotImage} alt="Headshot" className="card-img-top" />
-                            <div className="card-body bg-dark text-white">
+                            <img src={headshotImage} alt="Headshot" /*className="card-img-top"*/ />
+                            <div className="card-body bg-dark text-white"> 
                                 <h5 className="card-title">Emma Halsey</h5>
                                 <p className="card-text"> Alton, IL</p>
                             </div>
