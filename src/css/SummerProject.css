@@ -5,3 +5,17 @@
 .accordion-button {
     font-size: 22px;
 }
+.btn-danger {
+    text-align: center;
+    margin-left: 35%;
+}
+
+.aws {
+    width: 30%;
+    margin-left: 35%;
+}
+.stockimg {
+    padding:40;
+    width: 80%;
+    margin-left: 10%;
+}

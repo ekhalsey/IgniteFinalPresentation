@@ -32,7 +32,7 @@ export default function WebApp() {
             return (
                 <div>
                     <img src={CRA} alt="Create React App" />
-                    <img src={Vite} alt="Vite" />
+                    <img src={Vite} alt="Vite"/>
                 </div>
 
             )
@@ -77,7 +77,7 @@ export default function WebApp() {
                         <button className="btn btn-secondary" type="button" onClick={() => setIsDemo1Collapsed(!isDemo1Collapsed)}
                             data-bs-toggle="collapse" data-bs-target="#demo1" aria-expanded="false" aria-controls="collapseExample">1. Update</button>
                         <div id="demo1" className="collapse">
-                            sooooo many dependency vulnerabilities
+                            Dependency vulnerabilities
                         </div>
                     </div>
                     <br />
@@ -85,7 +85,7 @@ export default function WebApp() {
                         <button data-bs-toggle="collapse" data-bs-target="#demo2" onClick={() => setIsDemo2Collapsed(!isDemo2Collapsed)}
                             className="btn btn-secondary">2. Build Tools</button>
                         <div id="demo2" className="collapse">
-                            move from Create-React-App to Vite
+                            From Create-React-App to Vite
                         </div>
                     </div>
                     <br />
@@ -93,14 +93,15 @@ export default function WebApp() {
                         <button data-bs-toggle="collapse" data-bs-target="#demo3" onClick={() => setIsDemo3Collapsed(!isDemo3Collapsed)}
                             className="btn btn-secondary">3. Simplify</button>
                         <div id="demo3" className="collapse">
-                            mobx, and datastores, and snapshots oh my
+                            <p>simpler state handling</p>
+                            <p>fewer files, same functionality</p>
                         </div>
                     </div>
                     <br />
                     <div className="border border-dark rounded">
                         <button data-bs-toggle="collapse" data-bs-target="#demo4" onClick={() => setIsDemo4Collapsed(!isDemo4Collapsed)} className="btn btn-secondary">4. Modernize</button>
                         <div id="demo4" className="collapse">
-                            from class-based React to more modern function-based React
+                            From class-based React to modern function-based React
                         </div>
                     </div>
                     <br />
@@ -108,7 +109,7 @@ export default function WebApp() {
                         <button data-bs-toggle="collapse" data-bs-target="#demo5" onClick={() => setIsDemo5Collapsed(!isDemo5Collapsed)}
                             className="btn btn-secondary">5. Add on</button>
                         <div id="demo5" className="collapse">
-                            predictive element - will driver be late?
+                            Predictive element: Will driver be late?
                         </div>
                     </div>
                 </div>

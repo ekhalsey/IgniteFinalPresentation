@@ -9,5 +9,6 @@ button {
     width: 100%;
 }
 #demo1, #demo2, #demo3, #demo4, #demo5 {
-    padding-left: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
 }

@@ -32,14 +32,14 @@ export default function SummerProject() {
                     <li >Development process from an empty repository to a working app</li>
                     <li >Learn new technologies</li>
                   </ul>
-                  <img src={Slate} alt="" style={{padding: 40}}/>
+                  <img src={Slate} alt="" className="stockimg" />
                 </div>
               </div>
             </div>
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingTwo">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Trying to do too much work
+                  Trying to redo work
                 </button>
               </h2>
               <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -48,7 +48,7 @@ export default function SummerProject() {
                     <li>It's worth reading the documentation</li>
                     <li>Balance writing code vs recycling code</li>
                   </ul>
-                  <img src={Work} alt="" style={{padding:40}} />
+                  <img src={Work} alt="" className="stockimg" />
                 </div>
               </div>
             </div>
@@ -60,8 +60,8 @@ export default function SummerProject() {
               </h2>
               <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                  <p>Start working toward AWS Cloud Practitioner Certification</p>
-                  <img src={AWS} alt="" />
+                  <p>Working toward AWS Cloud Practitioner Certification</p>
+                  <img src={AWS} alt="" className="aws"/>
                 </div>
               </div>
             </div>
@@ -133,7 +133,7 @@ export default function SummerProject() {
               </h2>
               <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                  <a href="http://localhost:5173/?clientId=39df573a-f2f7-4eae-9f6e-3bac796aae02&preAuthCode=fakeCode#">Tako-Ui-Fe</a>
+                  <button className="btn btn-danger" style={{width: '25%'}}><a href="http://localhost:5173/?clientId=5b6fd0aa-ce85-4a62-880c-11518e332e64&preAuthCode=fakeCode#" style={{color: "white"}}>Tako-Ui-Fe</a></button>
                 </div>
               </div>
             </div>
