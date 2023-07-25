@@ -2,12 +2,12 @@ import React from 'react';
 import { useEffect } from 'react';
 import { Outlet, NavLink } from 'react-router-dom';
 // import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
-import './css/styles.css';
+import './styles.css';
 
 export default function Home() {
     
   return (
-    <div>
+    <div style={{ fontFamily: 'Roboto'}}>
       <nav className="navbar navbar-expand-lg bg-body-secondary">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">Ignite Final Presentation</NavLink>
@@ -22,9 +22,9 @@ export default function Home() {
               <li className="nav-item">
                 <NavLink className="nav-link" to="/intro">Intro</NavLink>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <NavLink className="nav-link" to="/network">Networking</NavLink>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <NavLink className="nav-link" to="/tictactoe">TicTacToe</NavLink>
               </li>

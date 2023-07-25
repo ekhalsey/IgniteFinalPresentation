@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Medium.ttf') format('truetype');
+}
+.navbar-nav {
+    font-size: 22px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+}

@@ -11,9 +11,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import ErrorPage from "./ErrorPage";
-import './css/index.css'
 import Introduction from './Introduction.jsx';
-import './css/styles.css'
+import './styles.css'
 import * as bootstrap from 'bootstrap'
 import SummerProject from './SummerProject.jsx';
 import Network from './Network.jsx';
